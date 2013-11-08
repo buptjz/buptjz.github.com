@@ -8,12 +8,12 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Break the Rules
-tagline: Site Tagline
+title : 凡我所欲，不过一种站立的姿态
+tagline: Break the Rules
 author :
-  name : Wang Jizhe
+  name : 王继哲
   email : buptjz@gmail.com
-  github : buptjz
+  github : https://github.com/buptjz
   twitter : username
   feedburner : feedname
 

@@ -7,6 +7,8 @@ tags: []
 ---
 {% include JB/setup %}
 
-<h2>{{page.title}}</h2>
-<p>试试看</p>
+##{page.title}}
+试试看
+
+
 <p>{{ page.date | date_to_string }}</p>
