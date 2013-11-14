@@ -4,7 +4,7 @@ title:        "链表问题总结"
 description: 
 banner: 
 categories: 
-- algorithm learning notes
+- algorithm
 ---
 
 
