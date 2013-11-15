@@ -2,6 +2,8 @@
  
 This is the structure and content of my personal blog, powered by [Jekyll][1]. 
 
+##Welcome to my Personal Blog
+[http://buptjz.github.io/](http://buptjz.github.io/)
 
 ## Plugins
 * [less_converter.rb][2] - Jason Graham's LESS CSS converter 
