@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "‘我有有一点不成熟的看法不知当讲不当讲’"
+title:        "‘我有一点不成熟的看法不知当讲不当讲’"
 description: 
 banner: 
 categories: 
