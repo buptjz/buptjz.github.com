@@ -12,7 +12,6 @@ title:    Home
   <h2>Recent notes</h2>
   {% for post in site.posts %}
 	<li>{{post.date | date_to_string}} <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
-    {% include post_excerpt.html %}    
   {% endfor %}
   <p>
    朝花夕拾，旧文请点<a href="/notebook.html">这里</a>
