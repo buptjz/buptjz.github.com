@@ -10,7 +10,8 @@ title:    Home
 
 <div id="latest-notes" class="span-12 last">  
   <h2>Recent notes</h2>
-  {% for post in site.posts limit:1 %}
+  {% for post in site.posts %}
+	<li>{{post.date | date_to_string}} <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a></li>
     {% include post_excerpt.html %}    
   {% endfor %}
   <p>
