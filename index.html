@@ -9,7 +9,6 @@ title:    Home
 </div>
 
 <div id="latest-notes" class="span-12 last">  
-  <h2>Recent notes</h2>
   {% for post in site.posts %}
 	<h3 class="post-title"><li>{{post.date | date_to_string}} <a href="{{post.url}}">{{post.title}}</a></li></h3>
   {% endfor %}
