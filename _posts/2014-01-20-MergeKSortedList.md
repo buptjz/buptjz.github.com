@@ -114,9 +114,24 @@ public:
 };
 
 
+
 ```
 
-###参考
-[1] [C++ STL priority_queue](http://blog.csdn.net/sup_heaven/article/details/8036982)
+###说个好玩的事
 
-[2] [[LeetCode] Merge k Sorted Lists](http://blog.csdn.net/a83610312/article/details/9565541)
+请考虑如下这道简单到白痴的题目：
+> 在含有n个数的数组中找到最小的数
+
+这个问题，有不止一个同学提出了这样的想法：将n个数两两比较，较小的数获胜，再进行第二轮比较，依次进行下去，就像体育比赛中的淘汰赛，最后获胜的就是我们要找个数，而整个过程时间复杂度是O(logN)。而线性扫描的时间是O(N)！我的亲娘四舅姥爷，这方法太好了!
+
+当初一T同学信心满满的提出这个算法时，我们一致表示真是天才，后来X同学不理解，我们对X同学嗤之以鼻，直到...直到X同学用数学证明了上述算法的时间复杂度依然是O(N)，你只要稍加思考，就会发现真相...
+
+实际上，O(logN)指的是比较的轮数，而不是比较的次数，比较的次数可以用等比数列求和公式进行计算，结果依然是O(N)。
+
+更有意思的是后来有FW同学自己又想出了这个方法，目前他仍然认为这个方法和使用最小堆的时间复杂是一样的！
+
+> 别让你所学的知识蒙蔽了你自己!
+
+###参考
+- [C++ STL priority_queue](http://blog.csdn.net/sup_heaven/article/details/8036982)
+- [[LeetCode] Merge k Sorted Lists](http://blog.csdn.net/a83610312/article/details/9565541)
