@@ -36,7 +36,7 @@ convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 但是你画出来几个例子之后，会找到两种扫描结果对应的索引关系，具体的公式请读者自行推断
 
 
-###答案
+###答案：
 
 以下的代码在本地运行没有问题，但是在leetCode中会出现如下的错误
 
@@ -111,9 +111,8 @@ string convert(std::string s, int nRows)
 
 ```
 
-###需要注意的问题
 
-题目虽然简单，但是仍然有需要注意的地方：
+###需要注意的问题：
 
 - 边缘条件，考虑输入nRows的值为1的情况了没有？
 - 做题前，先写测试用例！
