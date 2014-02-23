@@ -73,7 +73,7 @@ void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
         return;
     }
     //依次选择该位置上得每一个候选者
-    int lastNumber = -8888;
+    int lastNumber = num[0] - 1;//保证lastNumber的初始值比数组中最小值小
     for(int i = 0; i < num.size(); ++i)
     {
         //如果本候选者和上一个候选者重复，那么跳过这个候选者
