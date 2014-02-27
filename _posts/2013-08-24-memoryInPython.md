@@ -8,7 +8,8 @@ categories:
 ---
 
 <br />
-最近在学DeepLearning相关的内容，找到了DeepLearning.net这个网站，上面的tutorial主要是介绍深度学习算法，上面的实现是用Python语言，用到的库主要有numpy和Theano。numpy大家比较熟悉了，不再细说；Theano是一个进行数学计算的库，用户可以更好的定义、计算、优化有关矩阵的数学计算。
+最近在学DeepLearning相关的内容，找到了[DeepLearning.net这个网站]((http://deeplearning.net/software/theano/tutorial/python-memory-management.html#python-memory-management))，上面的tutorial主要是介绍深度学习算法，上面的实现是用Python语言，用到的库主要有numpy和Theano。numpy大家比较熟悉了，不再细说；Theano是一个进行数学计算的库，用户可以更好的定义、计算、优化有关矩阵的数学计算。
+
 
 ###Theano有一些重要的优势：
 
