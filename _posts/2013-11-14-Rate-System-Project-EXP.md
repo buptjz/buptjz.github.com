@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "‘我有一点不成熟的看法不知当讲不当讲’"
+title:        "【项目总结】央视创业大赛投票系统"
 description: 
 banner: 
 categories: 
