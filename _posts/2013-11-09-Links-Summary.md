@@ -1,6 +1,6 @@
 ---
 layout:       post
-title:        "链表问题总结"
+title:        "【算法总结】链表问题总结"
 description: 
 banner: 
 categories: 
