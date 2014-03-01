@@ -148,6 +148,7 @@ cout << str2 << ' ' << str3 << '\n';
 ###参考
 - C++ Primer 中文版第4版
 - [Nicolai M.Josuttis C++ string 用法详解](https://www.byvoid.com/blog/cpp-string/)
+- [substr](http://www.cplusplus.com/reference/string/string/substr/)
 
 
 
