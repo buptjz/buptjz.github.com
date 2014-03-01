@@ -34,7 +34,7 @@ cout << s << endl;		//写到output中
 ```
 ###string的常用操作
 <div class="row">
-    <div class="span4">
+    <div class="span2">
 <table>
    <tr>
       <td>s.empty()</td>
