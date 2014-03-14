@@ -1,5 +1,5 @@
 permalink:    /:year/:month/:day/:title
-analytics_id: UA-123-12
+analytics_id: UA-48997944-1
 title:        Charles
 description:  Personal Blog Of Wang JiZhe
 url:          http://buptjz.github.com
@@ -8,7 +8,7 @@ email:        buptjz@gmail.com
 github:       http://github.com/BUPTJZ
 keywords:     python,c,html,data mining,cloud computing
 comments:     true
-feed:         http://buptjzgithub.com/atom.xml
+feed:         http://buptjz.github.com/atom.xml
 ignore:       _blog, _posts/draft
 markdown:     rdiscount
 pygments:     true
