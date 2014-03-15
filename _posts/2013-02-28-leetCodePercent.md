@@ -35,8 +35,7 @@ categories:
 
 - http://oj.leetcode.com/problems/median-of-two-sorted-arrays/
 - [检查链表是否有环linked-list-cycle](http://oj.leetcode.com/problems/linked-list-cycle/)
-
-- 找出有环链表的入口节点http://oj.leetcode.com/problems/linked-list-cycle-ii/
+- [找出有环链表的入口节点linked list cycle ii](http://oj.leetcode.com/problems/linked-list-cycle-ii/)
 - 合并k个排序好的链表http://oj.leetcode.com/problems/merge-k-sorted-lists/
 - Two Sum http://oj.leetcode.com/problems/two-sum/
 - 两个链表表示的逆序整数相加返回一个新的链表http://oj.leetcode.com/problems/add-two-numbers/

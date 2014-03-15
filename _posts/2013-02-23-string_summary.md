@@ -144,6 +144,13 @@ cout << str2 << ' ' << str3 << '\n';
 
 基本的操作+查找+子串，基本涵盖了我们日常使用80%，更多内容请见参考
 
+##Level-3  常用高级方法
+
+###反转
+```
+std:: void reverse(s.begin(), s.end());//原地反转
+s1.assign(s.rbegin(), s.rend());//反转到别的 string 里面，一样简单：
+```
 
 ###参考
 - C++ Primer 中文版第4版
