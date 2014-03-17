@@ -8,7 +8,7 @@ email:        buptjz@gmail.com
 github:       http://github.com/BUPTJZ
 keywords:     python,c,html,data mining,cloud computing
 comments:     true
-feed:         http://buptjz.github.com/atom.xml
+feed:         
 ignore:       _blog, _posts/draft
 markdown:     rdiscount
 pygments:     true
