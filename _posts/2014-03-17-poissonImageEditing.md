@@ -1,4 +1,15 @@
-翻译[Poisson Image Editing](http://www.ctralie.com/Teaching/PoissonImageEditing/)
+---
+layout:       post
+title:        "泊松图像编辑入门宝典"
+description: 
+banner: 
+categories: 
+- Computer Vision
+---
+
+<br />
+
+粗暴的意译了[Poisson Image Editing](http://www.ctralie.com/Teaching/PoissonImageEditing/)，原文非常简单易懂，可以作为阅读原Paper之前的入门读物。
 
 原文作者Chris Tralie
 
