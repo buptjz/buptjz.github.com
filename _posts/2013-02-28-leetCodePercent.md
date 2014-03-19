@@ -29,33 +29,29 @@ categories:
 
 
 ##已经做过的题目
+按照大类进行划分，依次是【1】题目的leetcode地址【2】我的github上的解法【3】别人的解法或者总结
 
-
-###HH
+###没有解决的问题
 
 - http://oj.leetcode.com/problems/median-of-two-sorted-arrays/
-- [检查链表是否有环linked-list-cycle](http://oj.leetcode.com/problems/linked-list-cycle/)
-- [找出有环链表的入口节点linked list cycle ii](http://oj.leetcode.com/problems/linked-list-cycle-ii/)
-- 合并k个排序好的链表http://oj.leetcode.com/problems/merge-k-sorted-lists/
-- Two Sum http://oj.leetcode.com/problems/two-sum/
-- 两个链表表示的逆序整数相加返回一个新的链表http://oj.leetcode.com/problems/add-two-numbers/
-
 
 ###Tree
-- 将一个排序好的数组转换成平衡的二叉搜索树p://oj.leetcode.com/problems/convert-sorted-- array-to-binary-search-tree/
-- 计算有n个节点的搜索树能有多少种不同的形式【动态规划】http://oj.leetcode.com/problems/   unique-binary-search-trees/submissions/
-- http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/
-- http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/
-- http://oj.leetcode.com/problems/binary-tree-inorder-traversal/
-- 判断两棵树是否是一样的树http://oj.leetcode.com/problems/same-tree/
-- 树按层次遍历http://oj.leetcode.com/problems/binary-tree-level-order-traversal/
-- 验证一颗树是否是BSThttp://oj.leetcode.com/problems/validate-binary-search-tree/
-- http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/(http://yucoding.blogspot.com/2012/12/leetcode-question-13-binary-tree-level.html非常好的解法)
-- Zigzag方式遍历，使用两个栈，两个处理过程http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-- Flattern操作http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/
-- 深度拷贝一颗特别的树http://oj.leetcode.com/problems/copy-list-with-random-pointer/
-- 树的修复http://oj.leetcode.com/problems/recover-binary-search-tree/
-- 构建全部二叉搜索书http://oj.leetcode.com/problems/unique-binary-search-trees-ii/
+- [**将排序数组转换成BST**](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)······[Convert Sorted Array to Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConvertSortedArraytoBinarySearchTree.cpp)
+- [**计算有n个节点的搜索树能有多少种不同的形式**](http://oj.leetcode.com/problems/unique-binary-search-trees/submissions/)······[Unique Binary Search Trees](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/UniqueBinarySearchTrees.cpp)
+- [**构建全部二叉搜索树**](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)······[Unique Binary Search Trees II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/UniqueBinarySearchTreesII.cpp)
+- [**树的最大深度**](http://oj.leetcode.com/problems/maximum-depth-of-binary-tree/)······[Maximum Depth of Binary Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/MaximumDepthofBinaryTree.cpp)
+- [**树的最小深度**](http://oj.leetcode.com/problems/minimum-depth-of-binary-tree/)······[Minimum Depth of Binary Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/MinimumDepthofBinaryTree.cpp)
+- [树的**先序遍历**](http://oj.leetcode.com/problems/binary-tree-preorder-traversal/)······[Binary Tree Preorder Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreePreorderTraversal.cpp)·[非递归讲解](http://www.gocalf.com/blog/traversing-binary-tree.html)
+- [树的**中序遍历**](http://oj.leetcode.com/problems/binary-tree-inorder-traversal/)······[Binary Tree Inorder Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreeInorderTraversal.cpp)
+- [树的**后续遍历**](http://oj.leetcode.com/problems/binary-tree-postorder-traversal/)······[Binary Tree Postorder Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreePostorderTraversal.cpp)
+- [树按**层次遍历**](http://oj.leetcode.com/problems/binary-tree-level-order-traversal/)······[Binary Tree Level Order Traversal,留待填写](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreeInorderTraversal.cpp)
+- [树**逆层次遍历**](http://oj.leetcode.com/problems/binary-tree-level-order-traversal-ii/)······[Binary Tree Level Order Traversal II 留待填写](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreeLevelOrderTraversalII.cpp)······[仙人指路](http://yucoding.blogspot.com/2012/12/leetcode-question-13-binary-tree-level.html)
+- [**Zigzag遍历**](http://oj.leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)······[Binary Tree Zigzag Level Order Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreeZigzagLevelOrderTraversal.cpp)
+- [**判断两棵树是否是一样的树**](http://oj.leetcode.com/problems/same-tree/)······[Same Tree
+](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/SameTree.cpp)
+- [**验证一颗树是否是BST**](http://oj.leetcode.com/problems/validate-binary-search-tree/)······[Validate Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ValidateBinarySearchTree.cpp)
+- [**二叉树变链表**](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)······[Flatten Binary Tree to Linked List](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/FlattenBinaryTreetoLinkedList.cpp)
+- [**树的修复**](http://oj.leetcode.com/problems/recover-binary-search-tree/)······[Recover Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/RecoverBinarySearchTree.cpp)
 
 
 ###排列组合问题：
@@ -72,6 +68,13 @@ categories:
 
 
 ###链表：
+- [深度拷贝一颗特别链表](http://oj.leetcode.com/problems/copy-list-with-random-pointer/)······[Copy List with Random Pointer](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/List/CopyListwithRandomPointer2.cpp)······[仙人指路](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)·[哈希实现](http://blog.csdn.net/feliciafay/article/details/18894215)
+- [检查链表是否有环linked-list-cycle](http://oj.leetcode.com/problems/linked-list-cycle/)
+- [找出有环链表的入口节点linked list cycle ii](http://oj.leetcode.com/problems/linked-list-cycle-ii/)
+- 合并k个排序好的链表http://oj.leetcode.com/problems/merge-k-sorted-lists/
+- Two Sum http://oj.leetcode.com/problems/two-sum/
+- 两个链表表示的逆序整数相加返回一个新的链表http://oj.leetcode.com/problems/add-two-numbers/
+
 - 交换链表的相邻俩数http://oj.leetcode.com/problems/swap-nodes-in-pairs/
 - 链表划分http://oj.leetcode.com/problems/partition-list/
 - 删除排序数组的重复元素http://oj.leetcode.com/problems/remove-duplicates-from-sorted-list/
