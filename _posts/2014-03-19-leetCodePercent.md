@@ -52,6 +52,16 @@ categories:
 - [**验证一颗树是否是BST**](http://oj.leetcode.com/problems/validate-binary-search-tree/)······[Validate Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ValidateBinarySearchTree.cpp)
 - [**二叉树变链表**](http://oj.leetcode.com/problems/flatten-binary-tree-to-linked-list/)······[Flatten Binary Tree to Linked List](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/FlattenBinaryTreetoLinkedList.cpp)
 - [**树的修复**](http://oj.leetcode.com/problems/recover-binary-search-tree/)······[Recover Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/RecoverBinarySearchTree.cpp)
+- [**判断是否对称**](http://oj.leetcode.com/problems/symmetric-tree/)······[Symmetric Tree
+](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/SymmetricTree.cpp)
+- [**判断是同样的树**](http://oj.leetcode.com/problems/same-tree/)······[Same Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/SameTree.cpp)
+- [**最大路径和**](http://oj.leetcode.com/problems/binary-tree-maximum-path-sum/)······[Binary Tree Maximum Path Sum](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BinaryTreeMaximumPathSum.cpp)
+- [**判断树是否是平衡的**](http://oj.leetcode.com/problems/balanced-binary-tree/)······[Balanced Binary Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/BalancedBinaryTree.cpp)
+- [**排序数组生成BST**](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)······[Convert Sorted Array to Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConvertSortedArraytoBinarySearchTree.cpp)
+- [**排序链表生成BST**](http://oj.leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)······[Convert Sorted List to Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConvertSortedListtoBinarySearchTree.cpp)······[仙人指路](http://leetcode.com/2010/11/convert-sorted-list-to-balanced-binary.html)
+- [**中序结果+前序结果生成BST**](http://oj.leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)······[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConstructBinaryTreefromInorderandPreorderTraversal.cpp)
+- [**中序结果+后序结果生成BST**](http://oj.leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)······[Construct Binary Tree from Inorder and Postorder Traversal](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConstructBinaryTreefromInorderandPostorderTraversal.cpp)
+
 
 
 ###排列组合问题：
