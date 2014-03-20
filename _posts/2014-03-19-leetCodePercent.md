@@ -11,7 +11,7 @@ categories:
 
 
 ##近期需要做的工作
-* 整理[C++的map](ttp://blog.csdn.net/wallwind/article/details/6876892)
+* 整理[C++的map](http://blog.csdn.net/wallwind/article/details/6876892)
 - 继续刷题，整理做过的题：
 
 - 要求：
@@ -35,7 +35,7 @@ categories:
 
 - http://oj.leetcode.com/problems/median-of-two-sorted-arrays/
 
-###Tree
+###【老树盘根】
 - [**将排序数组转换成BST**](http://oj.leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)······[Convert Sorted Array to Binary Search Tree](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/ConvertSortedArraytoBinarySearchTree.cpp)
 - [**计算有n个节点的搜索树能有多少种不同的形式**](http://oj.leetcode.com/problems/unique-binary-search-trees/submissions/)······[Unique Binary Search Trees](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/UniqueBinarySearchTrees.cpp)
 - [**构建全部二叉搜索树**](http://oj.leetcode.com/problems/unique-binary-search-trees-ii/)······[Unique Binary Search Trees II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/UniqueBinarySearchTreesII.cpp)
@@ -64,18 +64,26 @@ categories:
 
 
 
-###排列组合问题：
-- 排列http://oj.leetcode.com/problems/permutations/
-- 重复数的排列http://oj.leetcode.com/problems/permutations-ii/
-- 查找下一个排列（字典法）http://oj.leetcode.com/problems/next-permutation/
-- 找n全排列的第x个数http://oj.leetcode.com/problems/permutation-sequence/
-- 列举一个集合的全部子集http://oj.leetcode.com/problems/subsets/
-- 包含重复元素的集合的全部子集oj.leetcode.com/problems/subsets-ii/
-- 找出所有令组合加起来是某一个值的所有组合的情况（同一个元素可使用多次）http://oj.leetcode.com/problems/combination-sum/
-- 找出令组合加起来是某一个值的所有组合的情况（同一个元素只能使用一次）http://oj.leetcode.com/problems/combination-sum-ii/
-- 先序遍历http://oj.leetcode.com/problems/binary-tree-preorder-traversal/
-- 后序遍历http://oj.leetcode.com/problems/binary-tree-postorder-traversal/
+###【排列组合]：
 
+排列组合是一大类问题，经典的思想是使用回溯法，看着三篇文章就够了
+
+- [【算法总结】排列组合问题与回溯法](http://buptjz.github.io/2014/02/23/permuteAndBacktrack/)
+- [leetCode上的排列组合问题整理](http://cuijing.org/interview/summary-of-permutation-and-combination-in-leetcode.html)
+- [演算法笔记](http://www.csie.ntnu.edu.tw/~u91029/Backtracking.html)
+
+#####题目
+
+- [**排列**](http://oj.leetcode.com/problems/permutations/)······[Permutations](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/Permutations.cpp)
+- [**重复数的排列**](http://oj.leetcode.com/problems/permutations-ii/)······[Permutations II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/PermutationsII.cpp)
+- [**查找下一个排列（字典法）**](http://oj.leetcode.com/problems/next-permutation/)······[Next Permutation](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/NextPermutation.cpp)
+- [**找n全排列的第x个数**](http://oj.leetcode.com/problems/permutation-sequence/)······[Permutation Sequence](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/PermutationSequence.cpp)
+- [**列举一个集合的全部子集**](http://oj.leetcode.com/problems/subsets/)······[Subsets](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/Subsets.cpp)
+- [**包含重复元素的集合的全部子集**](http://oj.leetcode.com/problems/subsets-ii/)······[Subsets II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/SubsetsII.cpp)
+- [**找所有加起来是某一个值的所有组合（同一个元素可使用多次）**](http://oj.leetcode.com/problems/combination-sum/)······[Combination Sum
+](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/CombinationSum.cpp)
+- [**找所有加起来是某一个值的所有组合（同一个元素只能使用一次）**](http://oj.leetcode.com/problems/combination-sum-ii/)······[Combination Sum II
+](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/CombinationSum.cpp)
 
 ###链表：
 - [深度拷贝一颗特别链表](http://oj.leetcode.com/problems/copy-list-with-random-pointer/)······[Copy List with Random Pointer](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/List/CopyListwithRandomPointer2.cpp)······[仙人指路](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)·[哈希实现](http://blog.csdn.net/feliciafay/article/details/18894215)
