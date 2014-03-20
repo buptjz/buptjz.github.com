@@ -134,15 +134,15 @@ categories:
 - http://oj.leetcode.com/problems/maximal-rectangle/(http://www.cnblogs.com/lichen782/p/leetcode_maximal_rectangle.html)
 
 ###字符串操作
-- 经典的ascii to integer http://oj.leetcode.com/problems/string-to-integer-atoi/
-- LongestSubstringWithoutRepeatingCharacters http://oj.leetcode.com/problems/longest-substring-without-repeating-characters/ 
-- http://oj.leetcode.com/problems/zigzag-conversion/
-- http://oj.leetcode.com/problems/longest-common-prefix/
-- 实现起来较复杂的题目，自己没有做出来，查看下C++下使用maphttp://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/参考了http://oj.leetcode.com/discuss/366/better-solution-than-brute-force
-- 判断括号是否匹配http://oj.leetcode.com/problems/valid-parentheses/
-- 找到最长的匹配的括号http://oj.leetcode.com/problems/longest-valid-parentheses/
-- 子串窗口查找http://oj.leetcode.com/problems/minimum-window-substring/（http://www.cnblogs.com/lichen782/p/leetcode_minimum_window_substring_3.html）
-- 没有思路oj.leetcode.com/problems/multiply-strings/
+- [**经典的ascii to integer**](http://oj.leetcode.com/problems/string-to-integer-atoi/)······[Combination Sum II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/atoi.cpp)
+- [**最长非重复子串**](http://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)······[Longest Substring Without Repeating Characters](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LongestSubstringWithoutRepeatingCharacters.cpp)
+- [**ZigZag转换**](http://oj.leetcode.com/problems/zigzag-conversion/)······[ZigZag Converision](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ZigZagConversion.cpp)
+- [**最长公共前缀**](http://oj.leetcode.com/problems/longest-common-prefix/)······[Longest Common Prefix](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LongestCommonPrefix.cpp)
+- [**单词链接**](http://oj.leetcode.com/problems/substring-with-concatenation-of-all-words/)······[Substring with Concatenation of All Words](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/SubstringwithConcatenationofAllWords.cpp)······[仙人指路]( http://oj.leetcode.com/discuss/366/better-solution-than-brute-force)
+- [**判断括号是否匹配**](http://oj.leetcode.com/problems/valid-parentheses/)······[Valid Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ValidParentheses.cpp)
+- [**找到最长的匹配的括号**](http://oj.leetcode.com/problems/longest-valid-parentheses/)······[Longest Valid Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/LongestValidParentheses.cpp)
+- [**子串窗口查找**](http://oj.leetcode.com/problems/minimum-window-substring/)······[Minimum Window Substring](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/MinimumWindowSubstring.cpp)······[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_minimum_window_substring_3.html)
+- [**没有思路**](http://oj.leetcode.com/problems/multiply-strings/)······[Multiply Strings]
 
 ###归并算法
 - http://oj.leetcode.com/problems/best-time-to-buy-and-sell-stock/
