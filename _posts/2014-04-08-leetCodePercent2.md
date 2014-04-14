@@ -15,18 +15,20 @@ categories:
  
 ---
 
-
 ###老树盘根
 - [**根到叶子节点表示的数字加和**](http://oj.leetcode.com/problems/sum-root-to-leaf-numbers/)······[Sum Root to Leaf Numbers](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/SumRoottoLeafNumbers.cpp)
 - [**树的指针next统统向右**](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node/)······[Populating Next Right Pointers in Each Node](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/PopulatingNextRightPointersinEachNode.cpp)
 - [**树的指针next统统向右 II**](http://oj.leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/)······[Populating Next Right Pointers in Each Node II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Tree/PopulatingNextRightPointersinEachNodeII.cpp)······[仙人指路](http://discuss.leetcode.com/questions/282/populating-next-right-pointers-in-each-node-ii)
 
-
 ###排列组合：
 - [**枚举IP地址**](http://oj.leetcode.com/problems/restore-ip-addresses/)······
 [Restore IP Addresses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/RestoreIPAddresses.cpp)
-
-
+- [**N皇后**](http://oj.leetcode.com/problems/n-queens/)······
+[N-Queens](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/N-Queens.cpp)
+- [**N皇后问题解的个数**](http://oj.leetcode.com/problems/n-queens-ii/)······
+[N-Queens II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/N-QueensII.cpp)
+- [**排出括号的各种组合**](http://oj.leetcode.com/problems/generate-parentheses/)······
+[Generate Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/GenerateParentheses.cpp)
 
 ###链表：
 
@@ -67,6 +69,18 @@ categories:
 [Add Binary](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/AddBinary.cpp)
 - [**合法数字字符串**](http://oj.leetcode.com/problems/valid-number/)·······
 [Valid Number](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/ValidNumber.cpp)······[仙人指路](http://discuss.leetcode.com/questions/241/valid-number)
+- [**二维矩阵螺旋遍历**](http://oj.leetcode.com/problems/spiral-matrix/)·······
+[Spiral Matrix](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/SpiralMatrix.cpp)
+- [**生成螺旋二维矩阵**](http://oj.leetcode.com/problems/spiral-matrix-ii/)·······
+[Spiral Matrix II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/SpiralMatrixII.cpp)
+- [**生成螺旋二维矩阵**](http://oj.leetcode.com/problems/spiral-matrix-ii/)·······
+[Spiral Matrix II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/SpiralMatrixII.cpp)
+- [**跳跃游戏**](http://oj.leetcode.com/problems/jump-game/)·······
+[Jump Game](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/JumpGame.cpp)
+- [**跳跃游戏II**](http://oj.leetcode.com/problems/jump-game-ii/)·······
+[Jump Game II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/JumpGameII.cpp)·······[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_Jump_Game_II.html)
+- [**找到所有颠倒字母而成的字**](oj.leetcode.com/problems/anagrams/)·······
+[Anagrams](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/Anagrams.cpp)
 
 ###DFS & BFS
 
@@ -76,7 +90,7 @@ categories:
 [Scramble String](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DFSBFS/WordLadder.cpp)······[仙人指路](http://blog.csdn.net/jecklee/article/details/20854679)
 
 ###Math
-- [**查找最长连续序列**](http://oj.leetcode.com/problems/gray-code/)······
+- [**格雷码**](http://oj.leetcode.com/problems/gray-code/)······
 [Gray Code](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Math/GrayCode.cpp)
 
 
@@ -87,6 +101,10 @@ categories:
 [Sort Colors](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Sort/SortColors.cpp)
 - [**在2D矩阵上查找**](http://oj.leetcode.com/problems/search-a-2d-matrix/)······
 [Search a 2D Matrix](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Search/Searcha2DMatrix.cpp)
+- [**插入interval**](http://oj.leetcode.com/problems/insert-interval/)······
+[Insert Interval](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Search/InsertInterval.cpp)
+- [**合并interval**](http://oj.leetcode.com/problems/merge-intervals/)······
+[Merge Intervals](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Sort/MergeIntervals.cpp)
 
 ###动态规划
 - [**加油站**](http://oj.leetcode.com/problems/gas-station/)······[Gas Station](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/GasStation.cpp)
@@ -108,4 +126,12 @@ categories:
 - [**计算逆波兰表示法**](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)······[Evaluate Reverse Polish Notation](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/EvaluateReversePolishNotation.cpp)
 - [**计算文件绝对路径**](http://oj.leetcode.com/problems/simplify-path/)······
 [Simplify Path](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/SimplifyPath.cpp)
+
+###字符串
+- [**计算最后一个单词的长度**](http://oj.leetcode.com/problems/length-of-last-word/)······
+[Length of Last Word](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LengthofLastWord.cpp)
+
+###Devide & Conquer
+- [**经典的计算x的n次方**](http://oj.leetcode.com/problems/powx-n/)······
+[Pow(x, n)](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DivideConquer/PowXN.cpp)
 

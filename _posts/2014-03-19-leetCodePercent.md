@@ -145,7 +145,8 @@ categories:
 - [**矩阵头到尾路径数量**](http://oj.leetcode.com/problems/unique-paths/)······[Unique Paths](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/UniquePaths.cpp)
 - [**矩阵头到尾路径数量(带路障)**](http://oj.leetcode.com/problems/unique-paths-ii/)······[Unique Paths II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/UniquePathsII.cpp)
 - [**正则表达式匹配**](http://oj.leetcode.com/problems/regular-expression-matching/)······[Regular Expression Matching](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/UniquePathsII.cpp)[仙人指路](http://leetcode.com/2011/09/regular-expression-matching.html)
-- [新浪iOS面试题**查找最大子数组**](http://oj.leetcode.com/problems/maximum-subarray/)
+- [新浪iOS面试题**查找最大子数组**](http://oj.leetcode.com/problems/maximum-subarray/)······
+[maximum-subarray](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/MaximumSubarray.cpp)
 - [**在方格内找左上到右下的最短路径长度**](http://oj.leetcode.com/problems/minimum-path-sum/)
 - [**在Histomgram中找最大矩形**](http://oj.leetcode.com/problems/largest-rectangle-in-histogram/)······[Largest Rectangle in Histogram](https://github.com/buptjz/AlgoPrac/tree/master/LeetCode/DivideConquer/LargestRectangle)······[仙人指路1](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)[仙人指路2](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/)
 - [**最大矩形**](http://oj.leetcode.com/problems/maximal-rectangle/)······[Maximal Rectangle](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DivideConquer/LargestRectangle/MaximalRectangle.cpp)[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_maximal_rectangle.html)
