@@ -75,12 +75,21 @@ categories:
 [Spiral Matrix II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/SpiralMatrixII.cpp)
 - [**生成螺旋二维矩阵**](http://oj.leetcode.com/problems/spiral-matrix-ii/)·······
 [Spiral Matrix II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/SpiralMatrixII.cpp)
+- [**图像旋转**](http://oj.leetcode.com/problems/rotate-image/)·······
+[Rotate Image](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/RotateImage.cpp)
 - [**跳跃游戏**](http://oj.leetcode.com/problems/jump-game/)·······
 [Jump Game](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/JumpGame.cpp)
 - [**跳跃游戏II**](http://oj.leetcode.com/problems/jump-game-ii/)·······
 [Jump Game II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/JumpGameII.cpp)·······[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_Jump_Game_II.html)
-- [**找到所有颠倒字母而成的字**](oj.leetcode.com/problems/anagrams/)·······
+- [**找到所有颠倒字母而成的字**](http://oj.leetcode.com/problems/anagrams/)·······
 [Anagrams](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/Anagrams.cpp)
+- [**找到所有颠倒字母而成的字**](http://oj.leetcode.com/problems/count-and-say/)·······
+[Count and Say](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/CountandSay.cpp)
+- [**找到所有颠倒字母而成的字**](http://oj.leetcode.com/problems/valid-sudoku/)·······
+[Valid Sudoku](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/ValidSudoku.cpp)
+- [**不用除法乘法的两数相除**](http://oj.leetcode.com/problems/divide-two-integers/)·······
+[Divide Two Integers](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/DivideTwoIntegers.cpp)
+
 
 ###DFS & BFS
 
@@ -88,8 +97,11 @@ categories:
 - [**单词阶梯**](http://oj.leetcode.com/problems/word-ladder/)······[Word Ladder](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DFSBFS/WordLadder.cpp)
 - [**树形混乱字符串**](http://oj.leetcode.com/problems/scramble-string/)······
 [Scramble String](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DFSBFS/WordLadder.cpp)······[仙人指路](http://blog.csdn.net/jecklee/article/details/20854679)
+- [**正则匹配的变形**](http://oj.leetcode.com/problems/wildcard-matching/)······
+[Wildcard Matching](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/WildcardMatching.cpp)
 
 ###Math
+
 - [**格雷码**](http://oj.leetcode.com/problems/gray-code/)······
 [Gray Code](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Math/GrayCode.cpp)
 
@@ -105,6 +117,8 @@ categories:
 [Insert Interval](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Search/InsertInterval.cpp)
 - [**合并interval**](http://oj.leetcode.com/problems/merge-intervals/)······
 [Merge Intervals](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Sort/MergeIntervals.cpp)
+- [**查找第一个缺失的正数**](http://oj.leetcode.com/problems/first-missing-positive/)······
+[First Missing Positive](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Sort/FirstMissingPositive.cpp)
 
 ###动态规划
 - [**加油站**](http://oj.leetcode.com/problems/gas-station/)······[Gas Station](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/GasStation.cpp)
@@ -125,13 +139,22 @@ categories:
 ###堆栈问题
 - [**计算逆波兰表示法**](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)······[Evaluate Reverse Polish Notation](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/EvaluateReversePolishNotation.cpp)
 - [**计算文件绝对路径**](http://oj.leetcode.com/problems/simplify-path/)······
-[Simplify Path](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/SimplifyPath.cpp)
+[Simplify Path](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/
+SimplifyPath.cpp)
+
+###大数问题
+- [**大数乘法**](http://oj.leetcode.com/problems/multiply-strings/)······
+[Multiply Strings](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/MultiplyStrings.cpp)
 
 ###字符串
 - [**计算最后一个单词的长度**](http://oj.leetcode.com/problems/length-of-last-word/)······
 [Length of Last Word](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LengthofLastWord.cpp)
+- [**实现子串查找**](http://oj.leetcode.com/problems/implement-strstr/)······
+[Implement strStr()](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ImplementstrStr.cpp)
+
 
 ###Devide & Conquer
 - [**经典的计算x的n次方**](http://oj.leetcode.com/problems/powx-n/)······
 [Pow(x, n)](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DivideConquer/PowXN.cpp)
-
+- [**装水问题**](http://oj.leetcode.com/problems/trapping-rain-water/)······
+[Trapping Rain Water](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DivideConquer/TrappingRainWater.cpp)
