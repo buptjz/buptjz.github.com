@@ -29,6 +29,9 @@ categories:
 [N-Queens II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/N-QueensII.cpp)
 - [**排出括号的各种组合**](http://oj.leetcode.com/problems/generate-parentheses/)······
 [Generate Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/GenerateParentheses.cpp)
+- [**输出电话号码字母组合**](http://oj.leetcode.com/problems/letter-combinations-of-a-phone-number/)······
+[Letter Combinations of a Phone Number](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Permutation/LetterCombinationsofaPhoneNumber.cpp)
+
 
 ###链表：
 
@@ -39,9 +42,16 @@ categories:
 [Partition List](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/List/PartitionList.cpp)
 - [**链表旋转**](http://oj.leetcode.com/problems/rotate-list/)······
 [Rotate List](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/List/RotateList.cpp)
+- [**以k为一组反转链表**](http://oj.leetcode.com/problems/reverse-nodes-in-k-group/)······
+[Reverse Nodes in k-Group](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/List/ReverseNodesink-Group.cpp)
 
 ###kSum系列
-
+- [**3 Sum**](http://oj.leetcode.com/problems/3sum/)······
+[3Sum](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/kSum/3Sum.cpp)
+- [**3 Sum Closest**](http://oj.leetcode.com/problems/3sum-closest/)······
+[3Sum Closest](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/kSum/3SumClosest.cpp)
+- [**4 Sum**](http://oj.leetcode.com/problems/4sum/)······
+[4Sum](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/kSum/4Sum.cpp)
 
 ###2 Pointer：
 
@@ -89,7 +99,10 @@ categories:
 [Valid Sudoku](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/ValidSudoku.cpp)
 - [**不用除法乘法的两数相除**](http://oj.leetcode.com/problems/divide-two-integers/)·······
 [Divide Two Integers](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/DivideTwoIntegers.cpp)
-
+- [**数字转换成罗马数字**](http://oj.leetcode.com/problems/integer-to-roman/)·······
+[Integer to Roman](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/IntegertoRoman.cpp)
+- [**罗马数字转换成数字**](http://oj.leetcode.com/problems/roman-to-integer/)·······
+[Roman to Integer](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/RomantoInteger.cpp)
 
 ###DFS & BFS
 
@@ -99,6 +112,7 @@ categories:
 [Scramble String](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DFSBFS/WordLadder.cpp)······[仙人指路](http://blog.csdn.net/jecklee/article/details/20854679)
 - [**正则匹配的变形**](http://oj.leetcode.com/problems/wildcard-matching/)······
 [Wildcard Matching](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/WildcardMatching.cpp)
+
 
 ###Math
 
@@ -135,6 +149,8 @@ categories:
 [Climbing Stairs](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/ClimbingStairs.cpp)
 - [**最短路径和**](http://oj.leetcode.com/problems/minimum-path-sum/)······
 [Minimum Path Sum](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/ClimbingStairs.cpp)
+- [**最长回文子串**](http://oj.leetcode.com/problems/longest-palindromic-substring/)······
+[Longest Palindromic Substring](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DP/LongestPalindromicSubstring.cpp)
 
 ###堆栈问题
 - [**计算逆波兰表示法**](http://oj.leetcode.com/problems/evaluate-reverse-polish-notation/)······[Evaluate Reverse Polish Notation](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/EvaluateReversePolishNotation.cpp)
@@ -151,6 +167,8 @@ SimplifyPath.cpp)
 [Length of Last Word](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LengthofLastWord.cpp)
 - [**实现子串查找**](http://oj.leetcode.com/problems/implement-strstr/)······
 [Implement strStr()](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ImplementstrStr.cpp)
+- [**经典的atoi**](http://oj.leetcode.com/problems/string-to-integer-atoi/)······
+[String to Integer (atoi)](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/atoi.cpp)
 
 
 ###Devide & Conquer
