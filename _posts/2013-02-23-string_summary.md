@@ -134,7 +134,7 @@ The substring is the portion of the object that starts at character position pos
 
 很简单，就是从S的某个位置开始截取指定长度的字符串的一个副本，请看下面这例子
 
-```
+```c
 string str="We think in generalities, but we live in details.";
 string str2 = str.substr (12,12);   // "generalities"
 unsigned pos = str.find("live");    // position of "live" in str
@@ -147,7 +147,8 @@ cout << str2 << ' ' << str3 << '\n';
 ##Level-3  常用高级方法
 
 ###反转
-```
+
+```c
 std:: void reverse(s.begin(), s.end());//原地反转
 s1.assign(s.rbegin(), s.rend());//反转到别的 string 里面，一样简单：
 ```

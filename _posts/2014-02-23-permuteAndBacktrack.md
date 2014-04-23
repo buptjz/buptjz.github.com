@@ -41,7 +41,7 @@ DX同学遇到了一个实际的问题，一共90个数找到N个数的和是一
 
 Given a collection of numbers, return all possible permutations. 
 
-```
+```c
 void permuteHelper(vector<vector<int>> &retVec,vector<int> &num,vector<int>&tmp,int length,vector<bool>isVisited){
     if ((int)tmp.size() == length) {
         retVec.push_back(tmp);
@@ -66,6 +66,7 @@ vector<vector<int> > permute(vector<int> &num) {
     return retVec;
 }
 ```
+
 上述使用backtrack的想法是按位选取，第一位有n个选择，第一位确认后，第二位有（n-1）个选择，依次类推，并且使用了深度优先遍历，正如算法设计手册上说的一样，深度优先遍历能够减少空间的使用，空间的减少带来的问题是我们每次递归后，要做unmake操作，如tmp.pop_back();和isVisited[i] = false;
 
 难点是使用isVisited标志某一个是否使用过了，如果使用过则不再使用
@@ -74,7 +75,7 @@ vector<vector<int> > permute(vector<int> &num) {
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations. 
 
-```
+```c
 void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
                          vector<vector<int> >&ret, vector<bool>&isVisited,int lenght)
 {
