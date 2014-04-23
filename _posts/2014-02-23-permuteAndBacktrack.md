@@ -17,8 +17,6 @@ DX同学遇到了一个实际的问题，一共90个数找到N个数的和是一
 ---
 #排列组合问题与回溯法
 
-
-
 ###排列组合问题与回溯法核心
 
 排列组合问题都是枚举类型的问题，这类问题的关键是采取怎样的枚机策略保证
@@ -75,7 +73,7 @@ vector<vector<int> > permute(vector<int> &num) {
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations. 
 
-```c
+{% highlight c %}
 void permuteUniqueHelper(int level, vector<int>&num, vector<int>&tmp,
                          vector<vector<int> >&ret, vector<bool>&isVisited,int lenght)
 {
@@ -108,7 +106,8 @@ vector<vector<int> > permuteUnique(vector<int> &num)
     permuteUniqueHelper(0, num, tmp, retVec, isVisited,lenght);
     return retVec;
 }
-```
+{% endhighlight %}
+
 与上一道题非常相似，两点变化：
 
 - 数组先排序
