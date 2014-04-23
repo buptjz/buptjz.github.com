@@ -13,30 +13,30 @@ categories:
 
 string类型支持长度可变的字符串。需要使用string要引入
 
-```c
+{% highlight c %}
 #include <string>
 using std::string
-```
+{% endhighlight %}
 
 
 
 ####string的定义和初始化
 
-```c
+{% highlight c %}
 string s1;				//默认构造函数，s1是空串
 string s2(s1);			//将s2初始化为s1的一个副本
 string s3("value");		//将s3初始化为一个字符串字面值副本
 string s4(n,'c');		//将s4初始化为字符串'c'的n个副本
-```
+{% endhighlight %}
 
 
 ####string读与写
 
-```c
+{% highlight c %}
 string s;				//空字符串
 cin >> s;				//读取string写入s，忽略开头所有的空白格，读取字符直到再次遇到空白符
 cout << s << endl;		//写到output中
-```
+{% endhighlight %}
 
 
 ####string的常用操作
@@ -134,13 +134,13 @@ The substring is the portion of the object that starts at character position pos
 
 很简单，就是从S的某个位置开始截取指定长度的字符串的一个副本，请看下面这例子
 
-```c
+{% highlight c %}
 string str="We think in generalities, but we live in details.";
 string str2 = str.substr (12,12);   // "generalities"
 unsigned pos = str.find("live");    // position of "live" in str
 string str3 = str.substr (pos);     // get from "live" to the end
 cout << str2 << ' ' << str3 << '\n';
-```
+{% endhighlight %}
 
 基本的操作+查找+子串，基本涵盖了我们日常使用80%，更多内容请见参考
 
@@ -148,10 +148,10 @@ cout << str2 << ' ' << str3 << '\n';
 
 ###反转
 
-```c
+{% highlight c %}
 std:: void reverse(s.begin(), s.end());//原地反转
 s1.assign(s.rbegin(), s.rend());//反转到别的 string 里面，一样简单：
-```
+{% endhighlight %}
 
 ###参考
 - C++ Primer 中文版第4版
