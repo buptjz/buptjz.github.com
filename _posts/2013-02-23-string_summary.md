@@ -13,7 +13,7 @@ categories:
 
 string类型支持长度可变的字符串。需要使用string要引入
 
-```
+```c
 #include <string>
 using std::string
 ```
@@ -22,7 +22,7 @@ using std::string
 
 ####string的定义和初始化
 
-```
+```c
 string s1;				//默认构造函数，s1是空串
 string s2(s1);			//将s2初始化为s1的一个副本
 string s3("value");		//将s3初始化为一个字符串字面值副本
@@ -32,7 +32,7 @@ string s4(n,'c');		//将s4初始化为字符串'c'的n个副本
 
 ####string读与写
 
-```
+```c
 string s;				//空字符串
 cin >> s;				//读取string写入s，忽略开头所有的空白格，读取字符直到再次遇到空白符
 cout << s << endl;		//写到output中
