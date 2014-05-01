@@ -9,13 +9,14 @@ categories:
 
 ---
 
+<br></br>
+
 ###传统的大规模图像检索方法
 
-[利用Minhash和LSH寻找相似的集合](http://www.cnblogs.com/bourneli/archive/2013/04/04/2999767.html)
-
-[相似度计算](http://blog.sina.com.cn/s/blog_6634c1410100w56x.html)
-
 这两篇文章中有比较好的介绍
+
+- [利用Minhash和LSH寻找相似的集合](http://www.cnblogs.com/bourneli/archive/2013/04/04/2999767.html)
+- [相似度计算](http://blog.sina.com.cn/s/blog_6634c1410100w56x.html)
 
 ####基本思想：
 
@@ -30,6 +31,8 @@ categories:
 
 - 其基本思路是将相似的集合聚集到一起，减小查找范围，避免比较不相似的集合
 - 对每一列c（即每个集合）我们都计算出了n行minhash值，我们把这n个值均分成b组，每组包含相邻的r=n/b行。对于每一列，把其每组的r个数都算一个hash值出来，把此列的编号记录到hash值对应的bucket里。如果两列被放到了同一个bucket里，说明它们至少有一组(r个)数的hash值相同，此时可认为它们有较大可能相似度较高（称为一对candidate）。最后在比较时只对落在同一个bucket里的集合两两计算，而不是全部的两两比较。
+
+---
 
 ###近期的大规模相似检索文章
 内容主要来自这篇文章《Web-Scale Near-Duplicate Search: Techniques and Applications》
@@ -65,5 +68,7 @@ categories:
 数据驱动的技术已经持续热了一段时间。这里面的学问是：如果我们有一个巨大的数据池，传统的的识别难题能够轻易的解决，因为识别问题可以转化成为检索问题。
 Web-Scale near duplicate检索技术非常重要，它是解决识别等问题的的关键，已经逐步成为解决大规模多媒体内容的“标准步骤”。
 
-###Refference
+---
+
+###Refferences
 POLICY, N. (2013). Web-Scale Near-Duplicate Search: Techniques and Applications. IEEE MultiMedia.
