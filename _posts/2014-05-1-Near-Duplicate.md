@@ -11,13 +11,25 @@ categories:
 
 ###传统的大规模图像检索方法
 
-[利用Minhash和LSH寻找相似的集合](http://www.cnblogs.com/bourneli/archive/2013/04/04/2999767.html)这篇文章中有了比较好的介绍
+[利用Minhash和LSH寻找相似的集合](http://www.cnblogs.com/bourneli/archive/2013/04/04/2999767.html)
 
-基本思想：
+[相似度计算](http://blog.sina.com.cn/s/blog_6634c1410100w56x.html)
+
+这两篇文章中有比较好的介绍
+
+####基本思想：
+
+#####1、min-hash得到摘要
 
 - 思路转化：比较两幅图像或者两篇文章的相似度问题转化为比较两个只包含0，1元素的集合的相似度，集合的相似度是Jaccard相似度。`\(JS(A,B)=\frac{|A\cap{B}|}{|A\cup{B}|}\)`
+- 根据这样一个神奇的公式`\(Pr[m(S_i) = m(S_j)] = E[\hat{JS}] =JS(S_i,S_j)\)`，使用min-hash函数将一幅图片或者一篇文章转化为一个数（对该文章中的每一个单词id使用hash函数后得到一个新的id序列，这个序列中的第一个出现1的行号，就是min-hash的值）
+- 这样我们可以使用k个hash函数，得到k个值，将原本的高维向量映射到了低维
+- Min-hash在压缩原始集合的情况下，保证了集合的相似度没有被破坏。
+- 
+#####2、LSH缩小查找范围
 
-- 根据这样一个神奇的公式`\(Pr[m(S_i) = m(S_j)] = E[\hat{JS}] =JS(S_i,S_j)\)`
+- 其基本思路是将相似的集合聚集到一起，减小查找范围，避免比较不相似的集合
+- 对每一列c（即每个集合）我们都计算出了n行minhash值，我们把这n个值均分成b组，每组包含相邻的r=n/b行。对于每一列，把其每组的r个数都算一个hash值出来，把此列的编号记录到hash值对应的bucket里。如果两列被放到了同一个bucket里，说明它们至少有一组(r个)数的hash值相同，此时可认为它们有较大可能相似度较高（称为一对candidate）。最后在比较时只对落在同一个bucket里的集合两两计算，而不是全部的两两比较。
 
 ###近期的大规模相似检索文章
 内容主要来自这篇文章《Web-Scale Near-Duplicate Search: Techniques and Applications》
