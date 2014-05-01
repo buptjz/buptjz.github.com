@@ -9,9 +9,17 @@ categories:
 
 ---
 
-内容主要来自这篇文章《Web-Scale Near-Duplicate Search: Techniques and Applications》
+###传统的大规模图像检索方法
+
+[利用Minhash和LSH寻找相似的集合](http://www.cnblogs.com/bourneli/archive/2013/04/04/2999767.html)这篇文章中有了比较好的介绍
+
+基本思想：
+
+- 思路转化：比较两幅图像或者两篇文章的相似度问题转化为比较两个只包含0，1元素的集合的相似度，集合的相似度是Jaccard相似度。`\(S(A,B)={|A\capB|}\frac{|A\cupB|}\)`
+- 根据这样一个神奇的公式
 
 ###近期的大规模相似检索文章
+内容主要来自这篇文章《Web-Scale Near-Duplicate Search: Techniques and Applications》
 
 1. ####《Partial-Duplicate Image Re- trieval via Saliency-Guided Visual Matching》
 
