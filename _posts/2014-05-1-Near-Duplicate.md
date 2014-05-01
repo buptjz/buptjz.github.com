@@ -15,8 +15,8 @@ categories:
 
 基本思想：
 
-- 思路转化：比较两幅图像或者两篇文章的相似度问题转化为比较两个只包含0，1元素的集合的相似度，集合的相似度是Jaccard相似度。`\(JS(A,B)=|A\cap{B}|\frac{|A\cup{B}|}\)`
-- 根据这样一个神奇的公式`\(Pr[m(S_i) = m(S_j)] = E[\hat{JS}]\) = JS(S_i,S_j\)`
+- 思路转化：比较两幅图像或者两篇文章的相似度问题转化为比较两个只包含0，1元素的集合的相似度，集合的相似度是Jaccard相似度。`\({JS(A,B)=|A\cap{B}|}\frac{|A\cup{B}|}\)`
+- 根据这样一个神奇的公式`\(Pr[m(S_i) = m(S_j)] = E[\hat{JS}]\)=JS(S_i,S_j)\)`
 
 ###近期的大规模相似检索文章
 内容主要来自这篇文章《Web-Scale Near-Duplicate Search: Techniques and Applications》
