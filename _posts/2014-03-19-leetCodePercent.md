@@ -150,10 +150,10 @@ categories:
 - [**在方格内找左上到右下的最短路径长度**](http://oj.leetcode.com/problems/minimum-path-sum/)
 - [**在Histomgram中找最大矩形**](http://oj.leetcode.com/problems/largest-rectangle-in-histogram/)······[Largest Rectangle in Histogram](https://github.com/buptjz/AlgoPrac/tree/master/LeetCode/DivideConquer/LargestRectangle)······[仙人指路1](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/)[仙人指路2](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/)
 - [**最大矩形**](http://oj.leetcode.com/problems/maximal-rectangle/)······[Maximal Rectangle](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/DivideConquer/LargestRectangle/MaximalRectangle.cpp)[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_maximal_rectangle.html)
-- [**最大矩形2**]矩阵中充满了正负数，找到这样一个子矩阵，这个矩阵元素和最大！
+- [**最大矩形2**]附加题：矩阵中充满了正负数，找到这样一个子矩阵，这个矩阵元素和最大！
 
 ###字符串操作
-- [**经典的ascii to integer**](http://oj.leetcode.com/problems/string-to-integer-atoi/)······[Combination Sum II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/atoi.cpp)
+- [**经典的ascii to integer**](http://oj.leetcode.com/problems/string-to-integer-atoi/)······[String to Integer (atoi)](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/atoi.cpp)
 - [**最长非重复子串**](http://oj.leetcode.com/problems/longest-substring-without-repeating-characters/)······[Longest Substring Without Repeating Characters](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LongestSubstringWithoutRepeatingCharacters.cpp)
 - [**ZigZag转换**](http://oj.leetcode.com/problems/zigzag-conversion/)······[ZigZag Converision](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ZigZagConversion.cpp)
 - [**最长公共前缀**](http://oj.leetcode.com/problems/longest-common-prefix/)······[Longest Common Prefix](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/LongestCommonPrefix.cpp)
