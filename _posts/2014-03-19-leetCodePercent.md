@@ -92,7 +92,7 @@ categories:
 
 ###链表：
 
-链表是最长用的数据结构之一，也是面试中最愿意考察的，注意的是二级指针的使用可以有效的节省代码，不用担心头结点是否存在这一类问题，具体请参见CoolShell上翻译的[Linus：利用二级指针删除单向链表](http://coolshell.cn/articles/8990.html)
+链表是最常用的数据结构之一，也是面试中最愿意考察的，注意的是二级指针的使用可以有效的节省代码，不用担心头结点是否存在这一类问题，具体请参见CoolShell上翻译的[Linus：利用二级指针删除单向链表](http://coolshell.cn/articles/8990.html)
 （*我认为记录的是头结点的指针的地址，这相当于隐式的在前面加了一个dummy node*）
 
 【注】@号表示使用了二级指针
@@ -161,7 +161,7 @@ categories:
 - [**判断括号是否匹配**](http://oj.leetcode.com/problems/valid-parentheses/)······[Valid Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/ValidParentheses.cpp)
 - [**找到最长的匹配的括号**](http://oj.leetcode.com/problems/longest-valid-parentheses/)······[Longest Valid Parentheses](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Stack/LongestValidParentheses.cpp)
 - [**子串窗口查找**](http://oj.leetcode.com/problems/minimum-window-substring/)······[Minimum Window Substring](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/MinimumWindowSubstring.cpp)······[仙人指路](http://www.cnblogs.com/lichen782/p/leetcode_minimum_window_substring_3.html)
-- [**没有思路**](http://oj.leetcode.com/problems/multiply-strings/)······[Multiply Strings]
+- [**大数乘法**](http://oj.leetcode.com/problems/multiply-strings/)······[Multiply Strings](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/Others/MultiplyStrings.cpp)
 - [【威哥探讨】**拆分单词拼合成一句**](http://oj.leetcode.com/problems/word-break/)······[Word Break](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/WordBreak.cpp)
 - [**拆分单词拼合成一句2**](http://oj.leetcode.com/problems/word-break-ii/)······[Word Break II](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/WordBreakII.cpp)······[仙人指路](http://zhaohongze.com/wordpress/2013/12/10/leetcode-word-break-ii/)
 - [单词搜索](http://oj.leetcode.com/problems/word-search/)······[Word Search](https://github.com/buptjz/AlgoPrac/blob/master/LeetCode/strings/WordSearch.cpp)
