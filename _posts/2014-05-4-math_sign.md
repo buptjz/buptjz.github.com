@@ -129,3 +129,10 @@ categories:
 </td><td><div class="para">欧米咖</div>
 </td><td><div class="para">角</div>
 </td></tr></tbody></table>
+
+贝叶斯公式，注意正比
+
+`\begin{align}
+ P( A | X ) = & \frac{ P(X | A) P(A) } {P(X) } \\\\[5pt]
+& \propto P(X | A) P(A)\;\; (\propto \text{is proportional to } )
+\end{align}`
