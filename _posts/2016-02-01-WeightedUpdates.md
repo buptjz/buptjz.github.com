@@ -2,18 +2,6 @@
 
 <script type="text/x-mathjax-config">MathJax.Hub.Config({TeX: {equationNumbers:{autoNumber:"AMS"}}});</script>
 
----
-layout:       post
-title:        "Online Learning之Weighted Marjority Algorithm"
-description: 
-banner: 
-categories: 
-- Computer Vision
-- Machine Learning
-
----
-
-<br></br>
 
 ### Weighted Marjority Algorithm
 
